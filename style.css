@@ -1,0 +1,435 @@
+body{
+    color:black;
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.container{  /*Everything*/
+    position: relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.box-1{  /*Welcome, Woman IMG*/
+    color: white;
+    margin: 0px;
+    
+    background-image: url("../images/Vector 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-x: -4px;
+    width: 1088px;
+    height: 691px;
+    left: 4px;
+    bottom: 6156px;
+
+    font-weight: 500;
+    font-size: 30px;
+    padding: 200px 100px;
+}
+
+.box-2{  /*Branches*/
+    position: relative;
+    right: 4px;
+    bottom: 528px;
+}
+
+#mydiv{  /*Woman IMG*/
+    position:relative; left:-130px; top:-190px;
+} 
+img {  /*Woman IMG*/
+    border-radius: 20px;
+}
+#example1{  /*Welcome*/
+	color: white;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#example2{  /*Digital*/
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding-left: 65px;
+}
+
+.my-image{  /*AgroCola logo*/
+    position: relative;
+    margin-left: 4%;
+    top: 10px;
+}
+
+.tech {  /*Yellow line Vision*/
+    border-bottom: 1px solid yellow;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    padding-right: 2px;
+}
+
+#navbar ul{  /*Vision, etc*/
+    list-style: none;
+    float: right;
+    padding-right: 200px;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.block{  /*Commitment paragraph*/
+    position: relative;
+    float: left;
+    width: 33%;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    z-index: 1;
+    margin-left: 165px;
+    margin-top: -400px;
+}
+.commit{  /*Commit&Policies&Sustainable Head*/
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+}
+.box-3 { /* Children Puzzles IMG */
+    float: right;
+    display: block;
+   position: relative;
+    margin-right: 118px;
+    margin-top: -614px;
+}
+
+.right-e{ /*Right Ellipse */
+    float: right;
+    width: 250px;
+    height: auto;
+    margin-top: -305px;
+    margin-right: 17px;
+    border-radius: initial;
+}
+.left-e { /*Left Ellipse*/
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: -140px;
+    margin-left: 0px;
+    border-radius: initial;
+}
+.curve-right { /*curve ellipse */
+    float: right;
+    width: 350px;
+    height: auto;
+    margin-top: -120px;
+    margin-right: -583px;
+    border-radius: initial;
+}
+.big-rectangle { /*Big rect after curve */
+    float: right;
+    width: 1000px;
+    height: 1280px;
+    margin-top: 253px;
+    margin-right: -880px;
+    margin-bottom: -900px;
+    z-index: 1;
+    border-radius: initial;
+}
+.semi-circle { /*SemiCircle after bigRectangle - INCOMPLETE*/
+    float: left;
+    border-radius: initial;
+    margin-left: 417px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.wobble-ellipse { /*Wobbly Ellipse */
+    float: right;
+    margin-top: -300px;
+    border-radius: initial;
+}
+.left-ell { /*under wobble */
+    float: left;
+    width: 280px;
+    margin-left: -20px;
+    margin-top: 40px;
+    border-radius: initial;
+}
+
+.block-2{  /*Policies..*/
+    position: relative;
+    float: left;
+    width: 28%;
+    display: block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 13px;
+    margin-left: 165px;
+    margin-top: 40px;
+}
+.box-4 { /*Hammer IMG*/
+    float: right;
+    display: block;
+   position: relative;
+    margin-right: 80px;
+    margin-top: -230px;
+}
+
+.block-3{  /*Sustainable..*/
+    float: left;
+    width: 43%;
+    display: block;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-left: -80px;
+    margin-top: 240px;
+}
+.box-5 { /*Lightbulb IMG*/
+    float: right;
+    display: block;
+   position: relative;
+    margin-right: 80px;
+    margin-top: -335px;
+}
+
+.read { /*1st RM*/ 
+    float: right;
+    color: green;
+    text-decoration: none;
+    height: 20px;
+    padding-left: 210px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+}
+.more { /*2nd RM*/
+    float: right;
+    color: green;
+    text-decoration: none;
+    height: 20px;
+    padding-right: 110px;
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+}
+
+.table { /*Closer Look*/
+    display: inline-block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -1000px;
+    margin-left: 80px;
+    margin-right: 48px;
+    margin-bottom: 230px;
+    /* background-image: url(../images/Rectangle\ 83.svg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1500px;
+    background-position: 5vw; */
+}
+.table-1{  /*CL: Row 1*/
+    display: inline-block;
+    background-color: #F5F6F4;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    margin: 30px;
+    margin-left: 0px;
+    padding: 30px;
+    width: 260px;
+    height: 411px;
+    border: 0px solid grey;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px 1px #ccc;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.table-2{  /*CL: Row 2*/
+    float: right;
+    display: block;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    margin: 30px;
+    margin-left: 0px;
+    padding: 30px;
+    width: 264px;
+    height: 411px;
+    background: white;
+    border: 0px solid grey;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 3px 1px #ccc;
+    border-radius: 8px;
+}
+.works { /*Table Headings in Borders*/
+    float: left;
+    font-family: 'Segoe MDL2 Assets', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 26px;
+    margin-bottom: 5px;
+}
+.parag { /*Border paragraphs*/
+    float: left;
+    font-family: 'Segoe MDL2 Assets', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+}
+.parag::before { /*paragraphs in borders */
+    content: "\a";
+    white-space: pre;
+    margin: 0;
+}
+.table-read { /*Borders:Read More*/
+    float: right;
+    color: rgba(248, 195, 1, 0.7);
+    text-decoration: none;
+    font-family: 'Segoe MDL2 Assets', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: -10px;
+}
+
+.state-1 { /*AgroFamily & Ractangle div*/
+    top: 0;
+    margin-top: -150px;
+}
+.image10 {  /*AgroFamily IMG*/
+    position: relative;
+    padding-top: 150px;
+    z-index:2;
+    /* background-image: url(../images/Rectangle\ 17.svg); */
+    border-radius: initial;
+}
+
+.state-2 { /* Hear Our Story*/
+    display: block;
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: green;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    padding-left: 245px;
+
+    margin-left: 170px;
+    margin-top: 120px;
+    width: 50%;
+}
+.story {
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+}
+.story::after {
+    background: green;
+    background: linear-gradient(to right, transparent 0%, green 50% yellow 50%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+ }
+ .picture { /* boy photo IMG */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 90px;
+ }
+
+.state-3 { /* Reshape the future */
+    display: block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 30px;
+    width: 33%;
+    margin-left: 280px;
+    margin-top: 200px;
+    line-height: 45px;
+}
+.join { /*JoinUs Button*/
+    color: #008737;
+    font-family: Segoe MDL2 Assets, sans-serif;
+    background-color: white;
+    width: 50%;
+    border: 3px;
+    border-style: solid;
+    border-color: #008737;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    padding-bottom: 8px;
+    padding-right: 0px;
+    border-width: 2px;
+    border-radius: 5px;
+
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px #888888;
+}
+.join a {
+    color: #008737;
+    font-family: Segoe MDL2 Assets, sans-serif;
+    text-decoration: none;
+}
+.pad-man { /*padlock phone*/
+    float: right;
+    margin-top: -430px;
+    margin-right: -430px;
+}
+
+.footer-container { /*Everything in Footer*/
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: green;
+    background-color: #F4F5F6;
+    margin-top: 300px;
+    height: 270px;
+}
+.footer {
+    display: inline;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -auto;
+}
+.footer-heading { /*3 columns Copy/Links/Follow*/
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-left: 115px;
+}
+.footer-heading a { /*Links, User, State*/
+    color: green;
+    text-decoration: none;
+    line-height: 40px;
+    margin-left: -10px;
+}
+.logo2 { /*AgroCola White Logo IMG*/
+    margin-bottom: 20px;
+}
+.link { /*Link text only*/
+    font-size: 20px;
+}
+.follow { /*follow us txt*/
+    margin-left: 125px;
+}
+.socials { /*SocialMedia IMG*/
+    word-spacing: 50px;
+    margin-left: 120px;
+}

@@ -1,16 +1,13 @@
 body{
     color:black;
-
     font-family: 'Red Hat Display', sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
     margin: 0px;
-
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    position: absolute;
 }
-
 .container{  /*Everything*/
     position: relative;
     margin: auto;
@@ -21,28 +18,23 @@ body{
 .box-1{  /*Welcome, Woman IMG*/
     color: white;
     margin: 0px;
-    
+    margin-left: -4px;
     background-image: url("../images/Vector 3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top left;
-    background-position-x: -4px;
-    width: 1088px;
+    width: 85%;
     height: 691px;
     left: 4px;
     bottom: 6156px;
-
     font-weight: 500;
     font-size: 30px;
     padding: 200px 100px;
 }
-
 .box-2{  /*Branches*/
     position: relative;
-    right: 4px;
+    width: 100%;
     bottom: 528px;
 }
-
 #mydiv{  /*Woman IMG*/
     position:relative; left:-130px; top:-190px;
 } 
@@ -55,7 +47,6 @@ img {  /*Woman IMG*/
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
-
 #example2{  /*Digital*/
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -65,17 +56,15 @@ img {  /*Woman IMG*/
 
 .my-image{  /*AgroCola logo*/
     position: relative;
-    margin-left: 4%;
+    padding-left: 4%;
     top: 10px;
 }
-
 .tech {  /*Yellow line Vision*/
     border-bottom: 1px solid yellow;
     padding-bottom: 3px;
     border-bottom-style: solid;
     padding-right: 2px;
 }
-
 #navbar ul{  /*Vision, etc*/
     list-style: none;
     float: right;
@@ -110,17 +99,16 @@ img {  /*Woman IMG*/
 .box-3 { /* Children Puzzles IMG */
     float: right;
     display: block;
-   position: relative;
+    position: relative;
     margin-right: 118px;
     margin-top: -614px;
 }
-
 .right-e{ /*Right Ellipse */
     float: right;
     width: 250px;
     height: auto;
     margin-top: -305px;
-    margin-right: 17px;
+    margin-right: 0px;
     border-radius: initial;
 }
 .left-e { /*Left Ellipse*/
@@ -136,7 +124,7 @@ img {  /*Woman IMG*/
     width: 350px;
     height: auto;
     margin-top: -120px;
-    margin-right: -583px;
+    margin-right: -600px;
     border-radius: initial;
 }
 .big-rectangle { /*Big rect after curve */
@@ -152,9 +140,8 @@ img {  /*Woman IMG*/
 .semi-circle { /*SemiCircle after bigRectangle - INCOMPLETE*/
     float: left;
     border-radius: initial;
-    margin-left: 417px;
-    margin-top: 150px;
-    margin-bottom: 0px;
+    padding-left: 417px;
+    padding-top: 150px;
 }
 .wobble-ellipse { /*Wobbly Ellipse */
     float: right;
@@ -234,10 +221,6 @@ img {  /*Woman IMG*/
     margin-left: 80px;
     margin-right: 48px;
     margin-bottom: 230px;
-    /* background-image: url(../images/Rectangle\ 83.svg);
-    background-repeat: no-repeat;
-    background-size: 2000px 1500px;
-    background-position: 5vw; */
 }
 .table-1{  /*CL: Row 1*/
     display: inline-block;
@@ -309,7 +292,6 @@ img {  /*Woman IMG*/
     position: relative;
     padding-top: 150px;
     z-index:2;
-    /* background-image: url(../images/Rectangle\ 17.svg); */
     border-radius: initial;
 }
 
@@ -322,7 +304,6 @@ img {  /*Woman IMG*/
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     padding-left: 245px;
-
     margin-left: 170px;
     margin-top: 120px;
     width: 50%;
@@ -374,7 +355,6 @@ img {  /*Woman IMG*/
     padding-right: 0px;
     border-width: 2px;
     border-radius: 5px;
-
     align-items: center;
     text-align: center;
     font-size: 20px;
@@ -399,6 +379,7 @@ img {  /*Woman IMG*/
     background-color: #F4F5F6;
     margin-top: 300px;
     height: 270px;
+    width: 100%;
 }
 .footer {
     display: inline;
